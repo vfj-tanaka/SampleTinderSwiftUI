@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC05033228E29BA000630663 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05033128E29BA000630663 /* SignUpView.swift */; };
+		FC05033428E29E7800630663 /* SignUpTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05033328E29E7800630663 /* SignUpTextFieldModifier.swift */; };
+		FC05033628E2A67300630663 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05033528E2A67300630663 /* SignInView.swift */; };
+		FC533B0528E1386C00A21D5E /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B0428E1386C00A21D5E /* TopControlView.swift */; };
+		FC533B0928E13A4700A21D5E /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B0828E13A4700A21D5E /* BottomControlView.swift */; };
+		FC533B0E28E152B400A21D5E /* BottomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B0D28E152B400A21D5E /* BottomButtonModifier.swift */; };
+		FC533B1028E1530900A21D5E /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B0F28E1530900A21D5E /* View+.swift */; };
+		FC533B1228E1534700A21D5E /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B1128E1534700A21D5E /* Image+.swift */; };
+		FC533B1528E1946400A21D5E /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC533B1428E1946400A21D5E /* CardViewModel.swift */; };
 		FCACFCA128DB4BC600F0A6A7 /* SampleTinderSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACFCA028DB4BC600F0A6A7 /* SampleTinderSwiftUIApp.swift */; };
-		FCACFCA328DB4BC600F0A6A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACFCA228DB4BC600F0A6A7 /* ContentView.swift */; };
+		FCACFCA328DB4BC600F0A6A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACFCA228DB4BC600F0A6A7 /* HomeView.swift */; };
 		FCACFCA528DB4BCE00F0A6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA428DB4BCE00F0A6A7 /* Assets.xcassets */; };
 		FCACFCA828DB4BCE00F0A6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACFCA728DB4BCE00F0A6A7 /* Preview Assets.xcassets */; };
 		FCACFCB228DB4BCE00F0A6A7 /* SampleTinderSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCACFCB128DB4BCE00F0A6A7 /* SampleTinderSwiftUITests.swift */; };
@@ -34,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC05033128E29BA000630663 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FC05033328E29E7800630663 /* SignUpTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextFieldModifier.swift; sourceTree = "<group>"; };
+		FC05033528E2A67300630663 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FC533B0428E1386C00A21D5E /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
+		FC533B0828E13A4700A21D5E /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
+		FC533B0D28E152B400A21D5E /* BottomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonModifier.swift; sourceTree = "<group>"; };
+		FC533B0F28E1530900A21D5E /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		FC533B1128E1534700A21D5E /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		FC533B1428E1946400A21D5E /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		FCACFC9D28DB4BC600F0A6A7 /* SampleTinderSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTinderSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCACFCA028DB4BC600F0A6A7 /* SampleTinderSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTinderSwiftUIApp.swift; sourceTree = "<group>"; };
-		FCACFCA228DB4BC600F0A6A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCACFCA228DB4BC600F0A6A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FCACFCA428DB4BCE00F0A6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCACFCA728DB4BCE00F0A6A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCACFCAD28DB4BCE00F0A6A7 /* SampleTinderSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTinderSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +89,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC533B0328E1378600A21D5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCACFCA228DB4BC600F0A6A7 /* HomeView.swift */,
+				FC533B0428E1386C00A21D5E /* TopControlView.swift */,
+				FC533B0828E13A4700A21D5E /* BottomControlView.swift */,
+				FC05033128E29BA000630663 /* SignUpView.swift */,
+				FC05033528E2A67300630663 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC533B0A28E1521400A21D5E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FC533B0C28E1523B00A21D5E /* Modifier */,
+				FC533B0B28E1522700A21D5E /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FC533B0B28E1522700A21D5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC533B0F28E1530900A21D5E /* View+.swift */,
+				FC533B1128E1534700A21D5E /* Image+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC533B0C28E1523B00A21D5E /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				FC533B0D28E152B400A21D5E /* BottomButtonModifier.swift */,
+				FC05033328E29E7800630663 /* SignUpTextFieldModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		FC533B1328E1943B00A21D5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC533B1428E1946400A21D5E /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		FCACFC9428DB4BC600F0A6A7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +159,10 @@
 		FCACFC9F28DB4BC600F0A6A7 /* SampleTinderSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FC533B0A28E1521400A21D5E /* Util */,
+				FC533B0328E1378600A21D5E /* Views */,
+				FC533B1328E1943B00A21D5E /* ViewModels */,
 				FCACFCA028DB4BC600F0A6A7 /* SampleTinderSwiftUIApp.swift */,
-				FCACFCA228DB4BC600F0A6A7 /* ContentView.swift */,
 				FCACFCA428DB4BCE00F0A6A7 /* Assets.xcassets */,
 				FCACFCA628DB4BCE00F0A6A7 /* Preview Content */,
 			);
@@ -257,8 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCACFCA328DB4BC600F0A6A7 /* ContentView.swift in Sources */,
+				FC05033228E29BA000630663 /* SignUpView.swift in Sources */,
+				FC533B0528E1386C00A21D5E /* TopControlView.swift in Sources */,
+				FCACFCA328DB4BC600F0A6A7 /* HomeView.swift in Sources */,
 				FCACFCA128DB4BC600F0A6A7 /* SampleTinderSwiftUIApp.swift in Sources */,
+				FC533B0928E13A4700A21D5E /* BottomControlView.swift in Sources */,
+				FC533B1528E1946400A21D5E /* CardViewModel.swift in Sources */,
+				FC533B1228E1534700A21D5E /* Image+.swift in Sources */,
+				FC533B1028E1530900A21D5E /* View+.swift in Sources */,
+				FC05033428E29E7800630663 /* SignUpTextFieldModifier.swift in Sources */,
+				FC05033628E2A67300630663 /* SignInView.swift in Sources */,
+				FC533B0E28E152B400A21D5E /* BottomButtonModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
